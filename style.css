@@ -1,0 +1,203 @@
+body {
+  margin:             0px;
+  font-family:        sans-serif;
+  background-color:   #F1F4F9;
+  padding-bottom:     50px;
+}
+
+div.width {
+  margin: auto;
+  width: 100%;
+}
+
+/*
+div.header {
+	position:           fixed; 
+	top:                0px; 
+  z-index:            100000; 
+
+  background-color:   #0099CC;
+  height:             100px;
+  font-size:          14pt;
+  width:          100%;
+
+  color:              white;
+}
+
+div.header a {
+  color:            white;
+  font-weight:      100;
+  font-size:        12pt;
+  text-decoration:  none;
+  padding-left:     10px;
+  padding-right:    10px;
+}
+
+div.header a:hover {
+  color:            #056495;
+}
+
+.header .title {
+  display:      inline-block;
+  padding-top:  40px;
+  font-weight:  100;
+  font-size:    12pt;
+  width:        200px;
+}
+
+.header .navigation {
+  display: inline;
+}*/
+
+div.main {
+  margin:           auto;
+  margin-top:       50px;
+  padding:          0px;  
+  padding-top:      5px;
+  max-width:        900px;
+  background-color: #F1F4F9;
+  font-weight:      100;
+}
+
+div.main h1 {
+  font-size:          16pt;
+  font-weight:        100;
+  margin:             0px;
+}
+
+div.publication {
+  position:           relative;
+  display:            inline-block;
+  max-width:          750px;
+  min-width:          600px;
+  min-height:         130px;
+  background-color:   white;
+  margin-top:         5px;
+  margin-bottom:      5px;
+  padding:            20px;
+  font-size:          12pt;
+  font-weight:        100;
+  color:              gray;
+  margin-left:        5px;
+  margin-right:       5px;
+  overflow:           hidden;
+}
+
+div.pub-container {
+  min-height:         100px;
+}
+
+div.publication a {
+  text-decoration: none;
+}
+
+div.pub-title {
+  color:        black;
+  font-weight:  900;
+  margin:       0px 0px 10px 0px;
+}
+
+div.pub-header {
+  font-size:        10pt;
+  margin-bottom:    10px;
+}
+
+span.pub-author {
+  font-style: normal;
+  color: black;
+}
+
+div.pub-icon {
+  border:    1px solid black;
+  width:     100px;
+  height:    100px;
+  position:  absolute;
+}
+
+div.pub-icon img {
+  position:  absolute;
+  top:       0;
+  bottom:    0;
+  margin:    auto;
+}
+
+span.pub-conf {
+  font-style: normal;
+}
+
+div.pub-desc {
+  vertical-align:   top;
+  margin-left:      115px;
+  color:            black;
+}
+
+div.section-heading {
+  font-size:      18pt;
+  font-weight:    900;
+  margin:         0px;
+  margin-left:    25px;
+  margin-bottom:  10px;
+  margin-top:     10px;
+}
+
+div.margin {
+  display:          inline-block;
+  width:            150px;
+  border:           1px solid black;
+  vertical-align:   top;
+  margin:           0px;
+  padding:          0px;
+}
+
+div.header {
+  max-width:        750px;
+  min-width:        600px;
+  background-color: white;
+  margin-left:      5px;  
+  margin-right:     5px;
+  padding-left:     20px;
+  padding-right:    20px;
+  padding-top:      15px;
+  padding-bottom:   15px;
+  margin-bottom:    5px;
+
+  overflow:         hidden;
+}
+
+span.contact-name {
+  font-weight: 900;
+}
+
+/*div.left {
+  float: left;
+  display: inline-block;
+}
+
+div.right {
+  float: right;
+  display: inline-block;
+}
+
+div.container {
+  position: relative;
+  width: 100%;
+}*/
+
+div.pub-download {
+  text-align:   right; 
+  font-size:    10pt; 
+  margin-top:   15px
+}
+
+div.left {
+  float: left;
+}
+
+div.right {
+  float: right;
+}
+/*div.content {
+  display: inline-block;
+  border: 1px solid black;
+  width: 900px;
+}*/
